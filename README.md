@@ -15,7 +15,7 @@ The interpreter supports basic arithmetic and equality operators, conditional st
 list operations, <code>define</code> and <code>lambda</code>.
 </p>
 <p>
-Each statement in the source file will be evaluated in turn, and any printable results will be displayed to standard output. A couple of
+Each statement in the source file will be evaluated in turn, and any printable results will be displayed to standard output. A few
 working Scheme programs and their resulting output are shown below:
 </p>
 
@@ -48,6 +48,7 @@ working Scheme programs and their resulting output are shown below:
 <pre>
 55.0
 </pre>
+<p>&nbsp;</p>
 <pre>
 (define ackermann (
         lambda (m n) (
