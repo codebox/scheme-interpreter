@@ -48,3 +48,19 @@ working Scheme programs and their resulting output are shown below:
 <pre>
 55.0
 </pre>
+<pre>
+(define ackermann (
+        lambda (m n) (
+            if (= m 0)
+                (+ n 1)
+                (if (= n 0)
+                    (ackermann (- m 1) 1)
+                    (ackermann (- m 1) (ackermann m (- n 1))))
+        )
+    )
+)
+(ackermann 3 3)
+</pre>
+<pre>
+61.0
+</pre>
